@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120" fill="none">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f3f4f6"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+  </defs>
+  <!-- soft rounded circle background -->
+  <rect x="4" y="4" width="112" height="112" rx="18" fill="url(#g)" stroke="#F1F5F9" stroke-width="2"/>
+
+  <!-- subtle inner circle for icon plate -->
+  <circle cx="60" cy="44" r="20" fill="#F8FAFC" />
+
+  <!-- envelope icon (stroke) -->
+  <g transform="translate(36,30)" stroke="#0F172A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <rect x="8" y="12" width="40" height="24" rx="3" />
+    <path d="M8 12 L28 28 L48 12" />
+    <path d="M12 18 L28 28 L44 18" />
+  </g>
+</svg>
